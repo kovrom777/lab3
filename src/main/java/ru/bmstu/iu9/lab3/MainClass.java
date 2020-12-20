@@ -58,7 +58,8 @@ public class MainClass {
         Map<Integer, String> airName = airportNames.collectAsMap();
 
         JavaPairRDD<Tuple2<Integer, Integer>, AirportDataSerializable> resultRdd = intputFlightsRdd.mapToPair(line ->{
-           String[] items = line.split()
+           String[] items = line.split(COMMA_SPLIT);
+           
         });
     }
 
