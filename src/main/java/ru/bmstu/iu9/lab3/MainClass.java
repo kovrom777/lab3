@@ -87,6 +87,7 @@ public class MainClass {
             if (p.getDestinationAirportId() > 0 || p.isCanceled()){
                 delayNumber ++;
             }
+            return new FlightsSerializable()
         });
 
     }
