@@ -57,6 +57,6 @@ public class FlightsSerializable {
 
     }
 
-    
+    public static FlightsSerializable add()
 
 }
