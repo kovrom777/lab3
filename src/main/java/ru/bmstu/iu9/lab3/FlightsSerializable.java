@@ -41,6 +41,10 @@ public class FlightsSerializable {
         allFlightsNumber++;
     }
 
-    public void 
+    public void incrementFlightNumber(){
+        allFlightsNumber++;
+    }
+
+    
 
 }
