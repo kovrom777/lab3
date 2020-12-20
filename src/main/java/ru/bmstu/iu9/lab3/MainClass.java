@@ -11,7 +11,7 @@ import java.util.Iterator;
 public class MainClass {
 
 
-    public static final String C = ",";
+    public static final String COMMA_SPLIT = ",";
 
     public static void main(String[] args) {
 
@@ -42,7 +42,7 @@ public class MainClass {
         JavaRDD<String> intputFlightsRdd = context.textFile(flightsPath).mapPartitionsWithIndex(removeHeaders, false);
 
         JavaPairRDD<Integer, String> airportNames = intputAirportRdd.mapToPair(line -> {
-           String[] airportName = line.split("COMA")
+           String[] airportName = line.split("COMMA_SPLIT");
         });
     }
 
