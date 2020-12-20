@@ -30,6 +30,8 @@ public class MainClass {
                 if (index == 0 && iterator.hasNext()){
                     iterator.next();
                     return iterator;
+                }else {
+                    return iterator;
                 }
 
                 return null;
