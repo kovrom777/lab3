@@ -73,7 +73,7 @@ public class MainClass {
            }else{
                return new Tuple2<>(new Tuple2<>(Integer.parseInt(items[TABLE_AIRPORT_ID]),
                        Integer.parseInt(items[TABLE_DESTINATION_ID])),
-                       new AirportDataSerializable(Integer.parseInt(items[TABLE_DELAY_ID]),
+                       new AirportDataSerializable(Integer.parseInt(items[TABLE_AIRPORT_ID]),
                                Integer.parseInt(items[TABLE_DESTINATION_ID]),
                                Double.parseDouble(items[18]),
                                true));
