@@ -82,7 +82,9 @@ public class MainClass {
         });
 
 
-        JavaPairRDD<Tuple2<Integer, Integer>, FlightsSerializable> reducesRes = resultRdd.combineByKey()
+        JavaPairRDD<Tuple2<Integer, Integer>, FlightsSerializable> reducesRes = resultRdd.combineByKey(p->{
+            
+        });
 
     }
 
