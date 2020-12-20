@@ -96,7 +96,7 @@ public class MainClass {
         JavaRDD<String> output = reducesRes.map(item -> {
            String tmpOutput = "";
            tmpOutput += airportBroadcast.value().get(item._1._1) + " ";
-           
+           tmpOutput += airportBroadcast.value().get(item)
         });
 
     }
