@@ -65,6 +65,6 @@ public class FlightsSerializable {
         );
     }
 
-    public double 
+    public double countProportion()
 
 }
