@@ -97,7 +97,8 @@ public class MainClass {
            String tmpOutput = "";
            tmpOutput += airportBroadcast.value().get(item._1._1) + " " + item._1._1 + " " +
                    airportBroadcast.value().get(item._1._2) + " " + item._1._2 + "\n" +
-                   "max Delay = " + item._2.getMaxDelay()
+                   "max Delay = " + item._2.getMaxDelay() + "\n" +
+                   
 
         });
 
