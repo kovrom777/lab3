@@ -11,5 +11,31 @@ public class FlightsSerializable {
         this.allFlightsNumber = allFlightsNumber;
     }
 
+    public double getMaxDelay() {
+        return maxDelay;
+    }
+
+    public void setMaxDelay(double maxDelay) {
+        this.maxDelay = maxDelay;
+    }
+
+    public int getFlightDelaysNumber() {
+        return flightDelaysNumber;
+    }
+
+    public void setFlightDelaysNumber(int flightDelaysNumber) {
+        this.flightDelaysNumber = flightDelaysNumber;
+    }
+
+    public int getAllFlightsNumber() {
+        return allFlightsNumber;
+    }
+
+    public void setAllFlightsNumber(int allFlightsNumber) {
+        this.allFlightsNumber = allFlightsNumber;
+    }
+
+
     
+
 }
