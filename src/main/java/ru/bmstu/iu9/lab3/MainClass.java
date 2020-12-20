@@ -2,6 +2,7 @@ package ru.bmstu.iu9.lab3;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.function.Function2;
 
 public class MainClass {
 
@@ -20,7 +21,7 @@ public class MainClass {
         SparkConf conf = new SparkConf().setAppName("example");
         JavaSparkContext context = new JavaSparkContext(conf);
 
-        Function2
+        Function2 removeHeaders = 
     }
 
 }
