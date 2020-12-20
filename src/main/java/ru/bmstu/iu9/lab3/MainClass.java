@@ -46,7 +46,7 @@ public class MainClass {
            String airport = "";
            for (int i = 1; i< airportArray.length; i++){
                airport += airportArray[i];
-               
+               String preParsedId = 
            }
         });
     }
