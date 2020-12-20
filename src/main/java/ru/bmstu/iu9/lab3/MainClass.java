@@ -18,6 +18,7 @@ public class MainClass {
     public static final int TABLE_DELAY_ID = 18;
     public static final String EMPTY_STRING = "";
     public static final int TABLE_DESTINATION_ID = 14;
+    public static final int TABLE_AIRPORT_ID = 11;
 
     public static void main(String[] args) {
 
