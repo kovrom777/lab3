@@ -48,13 +48,15 @@ public class FlightsSerializable {
     public static FlightsSerializable addValue(FlightsSerializable a, AirportDataSerializable b){
 
         int isDelayed = 0;
-        if (b.getTimeDaley() > 0 || b.isCanceled()){
+        if (b.getTimeDaley() > 0 || b.isCanceled()) {
             isDelayed = 1;
-            return new FlightsSerializable(Math.max(a.getMaxDelay(), b.getTimeDaley()),
-                    a.getFlightDelaysNumber() + isDelayed,
-                    a.getAllFlightsNumber() + 1);
         }
+        return new FlightsSerializable(Math.max(a.getMaxDelay(), b.getTimeDaley()),
+                a.getFlightDelaysNumber() + isDelayed,
+                a.getAllFlightsNumber() + 1);
 
     }
+
+    
 
 }
