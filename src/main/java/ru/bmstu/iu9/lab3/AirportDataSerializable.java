@@ -10,7 +10,7 @@ public class AirportDataSerializable implements Serializable {
     private boolean isCanceled;
 
     public AirportDataSerializable(){
-        
+
     }
 
     public AirportDataSerializable(int originalAirportId, int destinationAirportId, double timeDaley, boolean isCanceled) {
