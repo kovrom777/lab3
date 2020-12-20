@@ -6,6 +6,7 @@ import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function2;
+import org.apache.spark.broadcast.Broadcast;
 import scala.Tuple2;
 
 import java.util.Iterator;
@@ -90,7 +91,7 @@ public class MainClass {
             return new FlightsSerializable(p.getTimeDaley(), delayNumber, 1);
         }, FlightsSerializable::addValue, FlightsSerializable::add);
 
-        Ma
+        final Broadcast
 
     }
 
