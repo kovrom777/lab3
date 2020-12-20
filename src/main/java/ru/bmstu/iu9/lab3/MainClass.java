@@ -45,7 +45,8 @@ public class MainClass {
            String[] airportArray = line.split("COMMA_SPLIT");
            String airport = "";
            for (int i = 1; i< airportArray.length; i++){
-               airport
+               airport += airportArray[i];
+               
            }
         });
     }
