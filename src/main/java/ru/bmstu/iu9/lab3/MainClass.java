@@ -99,6 +99,7 @@ public class MainClass {
                    airportBroadcast.value().get(item._1._2) + " " + item._1._2 + "\n" +
                    "max Delay = " + item._2.getMaxDelay() + "\n" +
                    "Delayed and Canceled in proportion = " + item._2.countProportion();
+           return tmpOutput;
 
         });
 
