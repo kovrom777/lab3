@@ -42,7 +42,7 @@ public class MainClass {
         JavaRDD<String> intputFlightsRdd = context.textFile(flightsPath).mapPartitionsWithIndex(removeHeaders, false);
 
         JavaPairRDD<Integer, String> airportNames = intputAirportRdd.mapToPair(line -> {
-            
+           String[] airportName =  
         });
     }
 
