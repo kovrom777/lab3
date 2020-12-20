@@ -45,10 +45,10 @@ public class FlightsSerializable {
         allFlightsNumber++;
     }
 
-    public static FlightsSerializable addValue(FlightsSerializable a, FlightsSerializable b){
+    public static FlightsSerializable addValue(FlightsSerializable a, AirportDataSerializable b){
 
         int isDelayed = 0;
-        if (b.get)
+        if (b.getTimeDaley())
 
     }
 
