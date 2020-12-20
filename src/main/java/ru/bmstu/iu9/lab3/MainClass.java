@@ -46,13 +46,15 @@ public class MainClass {
         JavaPairRDD<Integer, String> airportNames = intputAirportRdd.mapToPair(line -> {
            String[] airportArray = line.split("COMMA_SPLIT");
            String airport = "";
-           for (int i = 1; i< airportArray.length; i++){
+           for (int i = 1; i< airportArray.length; i++) {
                airport += airportArray[i];
+           }
                String preParsedId = airportArray[0].replace(QUOTATION_MARK_CONSTANT, "");
                int flightId = Integer.parseInt(preParsedId);
-               return new Tuple2<>(flightId, airport)
-           }
+               return new Tuple2<>(flightId, airport);
         });
+
+        
     }
 
 }
