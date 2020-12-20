@@ -74,7 +74,7 @@ public class MainClass {
                        Integer.parseInt(items[TABLE_DESTINATION_ID])),
                        new AirportDataSerializable(Integer.parseInt(items[TABLE_DELAY_ID]),
                                Integer.parseInt(items[TABLE_DESTINATION_ID]),
-                               0,
+                               Double.parseDouble(),
                                true));
            }
         });
