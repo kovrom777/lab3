@@ -25,7 +25,7 @@ public class MainClass {
 
         Function2 removeHeaders = new Function2<Integer, Iterator<String>, Iterator<String>>() {
             @Override
-            public Iterator<String> call(Object o, Object o2) throws Exception {
+            public Iterator<String> call(Integer index, Object o2) throws Exception {
                 return null;
             }
         }
