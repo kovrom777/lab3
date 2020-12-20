@@ -61,7 +61,7 @@ public class FlightsSerializable {
         return  new FlightsSerializable(
                 Math.max(a.maxDelay, b.maxDelay),
                 a.getFlightDelaysNumber() + b.getFlightDelaysNumber(),
-                
+                a.getAllFlightsNumber()
 
         );
     }
