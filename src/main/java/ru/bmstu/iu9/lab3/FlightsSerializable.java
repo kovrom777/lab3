@@ -52,7 +52,7 @@ public class FlightsSerializable {
             isDelayed = 1;
             return new FlightsSerializable(Math.max(a.getMaxDelay(), b.getTimeDaley()),
                     a.getFlightDelaysNumber() + isDelayed,
-                    )
+                    a.getAllFlightsNumber() + 1);
         }
 
     }
