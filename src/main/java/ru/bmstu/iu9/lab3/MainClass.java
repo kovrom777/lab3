@@ -27,7 +27,7 @@ public class MainClass {
             @Override
             public Iterator<String> call(Integer index, Iterator<String> iterator) throws Exception {
 
-                if (index == 0){
+                if (index == 0 && iterator.hasNext()){
                     
                 }
 
