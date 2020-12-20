@@ -57,7 +57,7 @@ public class MainClass {
 
         Map<Integer, String> airName = airportNames.collectAsMap();
 
-        JavaPairRDD<Tuple2<Integer, Integer>, AirportDataSerializable>
+        JavaPairRDD<Tuple2<Integer, Integer>, AirportDataSerializable> resultRdd = 
     }
 
 }
