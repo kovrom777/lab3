@@ -46,7 +46,10 @@ public class FlightsSerializable {
     }
 
     public static FlightsSerializable addValue(FlightsSerializable a, FlightsSerializable b){
+
+        int isDelayed = 0;
         
+
     }
 
 }
