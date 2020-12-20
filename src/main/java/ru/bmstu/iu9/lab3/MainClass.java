@@ -42,10 +42,10 @@ public class MainClass {
         JavaRDD<String> intputFlightsRdd = context.textFile(flightsPath).mapPartitionsWithIndex(removeHeaders, false);
 
         JavaPairRDD<Integer, String> airportNames = intputAirportRdd.mapToPair(line -> {
-           String[] airportNames = line.split("COMMA_SPLIT");
+           String[] airportArray = line.split("COMMA_SPLIT");
            String airport = "";
-           for (int i = 1; i< airportNames.length; i++){
-               
+           for (int i = 1; i< airportArray.length; i++){
+               airport
            }
         });
     }
