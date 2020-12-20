@@ -102,7 +102,7 @@ public class MainClass {
            return tmpOutput;
         });
 
-        output
+        output.saveAsTextFile();
 
     }
 
