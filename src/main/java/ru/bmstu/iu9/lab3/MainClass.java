@@ -55,7 +55,9 @@ public class MainClass {
                return new Tuple2<>(flightId, airport);
         });
 
-        Map<Integer, String> airName = airportNames
+        Map<Integer, String> airName = airportNames.collectAsMap();
+
+        
     }
 
 }
