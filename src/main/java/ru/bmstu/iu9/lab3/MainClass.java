@@ -15,6 +15,7 @@ public class MainClass {
 
     public static final String COMMA_SPLIT = ",";
     public static final String QUOTATION_MARK_CONSTANT = "\"";
+    public static final int INT = 18;
 
     public static void main(String[] args) {
 
@@ -59,7 +60,7 @@ public class MainClass {
 
         JavaPairRDD<Tuple2<Integer, Integer>, AirportDataSerializable> resultRdd = intputFlightsRdd.mapToPair(line ->{
            String[] items = line.split(COMMA_SPLIT);
-           
+           if (items[INT])
         });
     }
 
