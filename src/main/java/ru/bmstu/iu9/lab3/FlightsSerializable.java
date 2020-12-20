@@ -66,6 +66,9 @@ public class FlightsSerializable {
     }
 
     public double countProportion(){
+        if (flightDelaysNumber == 0){
+            return 0;
+        }
         
     }
 
