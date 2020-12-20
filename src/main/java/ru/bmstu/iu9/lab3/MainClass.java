@@ -37,7 +37,7 @@ public class MainClass {
             }
         };
 
-        JavaRDD<String> intputAirportRdd = context.textFile(airportPath)
+        JavaRDD<String> intputAirportRdd = context.textFile(airportPath).mapPartitionsWithIndex()
     }
 
 }
