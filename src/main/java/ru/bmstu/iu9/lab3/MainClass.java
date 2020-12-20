@@ -102,7 +102,7 @@ public class MainClass {
            return tmpOutput;
         });
 
-        output.saveAsTextFile("hdfs://localhost");
+        output.saveAsTextFile("hdfs://localhost:9000");
 
     }
 
