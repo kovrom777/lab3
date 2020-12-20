@@ -12,6 +12,7 @@ public class MainClass {
 
 
     public static final String COMMA_SPLIT = ",";
+    public static final String QUOTATION_MARK_CONSTANT = "\"";
 
     public static void main(String[] args) {
 
@@ -46,7 +47,7 @@ public class MainClass {
            String airport = "";
            for (int i = 1; i< airportArray.length; i++){
                airport += airportArray[i];
-               String preParsedId = airportArray[0].replace("\"", "")
+               String preParsedId = airportArray[0].replace(QUOTATION_MARK_CONSTANT, "")
            }
         });
     }
