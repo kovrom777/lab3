@@ -48,7 +48,8 @@ public class MainClass {
            for (int i = 1; i< airportArray.length; i++){
                airport += airportArray[i];
                String preParsedId = airportArray[0].replace(QUOTATION_MARK_CONSTANT, "");
-               int flightId = Integer.parseInt()
+               int flightId = Integer.parseInt(preParsedId);
+               
            }
         });
     }
