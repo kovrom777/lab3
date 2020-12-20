@@ -26,6 +26,11 @@ public class MainClass {
         Function2 removeHeaders = new Function2<Integer, Iterator<String>, Iterator<String>>() {
             @Override
             public Iterator<String> call(Integer index, Iterator<String> iterator) throws Exception {
+
+                if (index == 0){
+                    
+                }
+
                 return null;
             }
         }
