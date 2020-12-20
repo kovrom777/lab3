@@ -28,6 +28,7 @@ public class MainClass {
             public Iterator<String> call(Integer index, Iterator<String> iterator) throws Exception {
 
                 if (index == 0 && iterator.hasNext()){
+                    iterator.next();
                     
                 }
 
