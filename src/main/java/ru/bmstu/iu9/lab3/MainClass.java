@@ -91,7 +91,7 @@ public class MainClass {
             return new FlightsSerializable(p.getTimeDaley(), delayNumber, 1);
         }, FlightsSerializable::addValue, FlightsSerializable::add);
 
-        final Broadcast<Map<Integer, String>> flight
+        final Broadcast<Map<Integer, String>> FlightsSerializable
 
     }
 
