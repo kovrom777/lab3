@@ -87,7 +87,7 @@ public class MainClass {
             if (p.getDestinationAirportId() > 0 || p.isCanceled()){
                 delayNumber ++;
             }
-            return new FlightsSerializable(p.getTimeDaley(), delayNumber + 1, 1);
+            return new FlightsSerializable(p.getTimeDaley(), delayNumber, 1);
         }, FlightsSerializable::addValue, FlightsSerializable::add);
 
     }
