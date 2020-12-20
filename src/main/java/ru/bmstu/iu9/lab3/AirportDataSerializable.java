@@ -7,6 +7,7 @@ public class AirportDataSerializable implements Serializable {
 
     private int originalAirportId, destinationAirportId;
     private double timeDaley;
-    private boolean
+    private boolean isCanceled;
+    
 
 }
