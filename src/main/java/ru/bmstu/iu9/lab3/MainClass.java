@@ -66,8 +66,11 @@ public class MainClass {
                return new Tuple2<>(new Tuple2<>(Integer.parseInt(items[TABLE_DELAY_ID]),
                                                 Integer.parseInt(items[TABLE_DESTINATION_ID])),
                                     new AirportDataSerializable(Integer.parseInt(items[TABLE_DELAY_ID]),
-                                            Integer.parseInt(items[TABLE_DESTINATION_ID]), 0, true)
-               );
+                                                                Integer.parseInt(items[TABLE_DESTINATION_ID]),
+                                                        0,
+                                                        true));
+           }else{
+               
            }
         });
     }
