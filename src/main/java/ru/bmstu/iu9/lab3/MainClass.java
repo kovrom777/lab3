@@ -1,5 +1,6 @@
 package ru.bmstu.iu9.lab3;
 
+import com.sun.org.apache.bcel.internal.generic.FALOAD;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
@@ -76,7 +77,7 @@ public class MainClass {
                        new AirportDataSerializable(Integer.parseInt(items[TABLE_AIRPORT_ID]),
                                Integer.parseInt(items[TABLE_DESTINATION_ID]),
                                Double.parseDouble(items[TABLE_DELAY_ID]),
-                               true));
+                               false));
            }
         });
     }
