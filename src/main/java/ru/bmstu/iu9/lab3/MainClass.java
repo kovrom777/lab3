@@ -5,6 +5,7 @@ import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function2;
+import scala.Tuple2;
 
 import java.util.Iterator;
 
@@ -49,7 +50,7 @@ public class MainClass {
                airport += airportArray[i];
                String preParsedId = airportArray[0].replace(QUOTATION_MARK_CONSTANT, "");
                int flightId = Integer.parseInt(preParsedId);
-               
+               return new Tuple2<>()
            }
         });
     }
