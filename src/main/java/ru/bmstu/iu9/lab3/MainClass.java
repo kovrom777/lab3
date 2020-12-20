@@ -37,7 +37,7 @@ public class MainClass {
             }
         };
 
-        JavaRDD
+        JavaRDD<String, >
     }
 
 }
