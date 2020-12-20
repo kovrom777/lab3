@@ -50,7 +50,8 @@ public class FlightsSerializable {
         int isDelayed = 0;
         if (b.getTimeDaley() > 0 || b.isCanceled()){
             isDelayed = 1;
-            return new FlightsSerializable(Math.max(a.getMaxDelay(), b.getTimeDaley()), a.getFlightDelaysNumber() + b.get)
+            return new FlightsSerializable(Math.max(a.getMaxDelay(), b.getTimeDaley()),
+                    a.getFlightDelaysNumber() + b.get)
         }
 
     }
