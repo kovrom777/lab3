@@ -84,7 +84,9 @@ public class MainClass {
 
         JavaPairRDD<Tuple2<Integer, Integer>, FlightsSerializable> reducesRes = resultRdd.combineByKey(p -> {
             int delayNumber = 0;
-            if (p.getDestinationAirportId() > 0 || )
+            if (p.getDestinationAirportId() > 0 || p.isCanceled()){
+                
+            }
         });
 
     }
