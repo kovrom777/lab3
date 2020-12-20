@@ -100,8 +100,9 @@ public class MainClass {
                    "max Delay = " + item._2.getMaxDelay() + "\n" +
                    "Delayed and Canceled in proportion = " + item._2.countProportion();
            return tmpOutput;
-
         });
+
+        output
 
     }
 
