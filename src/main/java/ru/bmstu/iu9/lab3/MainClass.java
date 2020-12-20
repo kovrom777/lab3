@@ -65,7 +65,8 @@ public class MainClass {
            if (items[TABLE_DELAY_ID].equals(EMPTY_STRING)){
                return new Tuple2<>(new Tuple2<>(Integer.parseInt(items[TABLE_DELAY_ID]),
                                                 Integer.parseInt(items[TABLE_DESTINATION_ID])),
-                                    new AirportDataSerializable(Integer.parseInt())
+                                    new AirportDataSerializable(Integer.parseInt(items[TABLE_DELAY_ID]),
+                                            Integer.parseInt(items[TABLE_DESTINATION_ID])))
                )
            }
         });
