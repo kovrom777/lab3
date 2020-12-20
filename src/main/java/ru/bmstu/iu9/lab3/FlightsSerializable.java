@@ -48,7 +48,7 @@ public class FlightsSerializable {
     public static FlightsSerializable addValue(FlightsSerializable a, AirportDataSerializable b){
 
         int isDelayed = 0;
-        if (b.getTimeDaley())
+        if (b.getTimeDaley() > 0 )
 
     }
 
