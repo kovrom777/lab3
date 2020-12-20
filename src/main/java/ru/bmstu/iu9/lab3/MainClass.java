@@ -90,6 +90,8 @@ public class MainClass {
             return new FlightsSerializable(p.getTimeDaley(), delayNumber, 1);
         }, FlightsSerializable::addValue, FlightsSerializable::add);
 
+        Ma
+
     }
 
 }
