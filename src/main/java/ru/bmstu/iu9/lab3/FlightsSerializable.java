@@ -49,6 +49,7 @@ public class FlightsSerializable {
 
         int isDelayed = 0;
         if (b.getTimeDaley() > 0 || b.isCanceled()){
+            isDelayed = 1;
             
         }
 
