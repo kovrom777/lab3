@@ -65,4 +65,6 @@ public class FlightsSerializable {
         );
     }
 
+    public double 
+
 }
