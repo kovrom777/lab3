@@ -21,7 +21,7 @@ public class MainClass {
         SparkConf conf = new SparkConf().setAppName("example");
         JavaSparkContext context = new JavaSparkContext(conf);
 
-        Function2 removeHeaders = new Function2() {
+        Function2 removeHeaders = new Function2<Integer, > {
             @Override
             public Object call(Object o, Object o2) throws Exception {
                 return null;
