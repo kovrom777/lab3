@@ -62,7 +62,7 @@ public class MainClass {
         JavaPairRDD<Tuple2<Integer, Integer>, AirportDataSerializable> resultRdd = intputFlightsRdd.mapToPair(line ->{
            String[] items = line.split(COMMA_SPLIT);
            if (items[TABLE_DELAY_ID].equals(EMPTY_STRING)){
-               return new Tuple2<>()
+               return new Tuple2<>(new Tuple2<>())
            }
         });
     }
