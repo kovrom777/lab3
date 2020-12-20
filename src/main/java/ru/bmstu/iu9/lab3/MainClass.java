@@ -8,6 +8,7 @@ import org.apache.spark.api.java.function.Function2;
 import scala.Tuple2;
 
 import java.util.Iterator;
+import java.util.Map;
 
 public class MainClass {
 
@@ -54,7 +55,7 @@ public class MainClass {
                return new Tuple2<>(flightId, airport);
         });
 
-        Map<Integer, String>
+        Map<Integer, String> = 
     }
 
 }
