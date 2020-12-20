@@ -41,7 +41,7 @@ public class MainClass {
         JavaRDD<String> intputAirportRdd = context.textFile(airportPath).mapPartitionsWithIndex(removeHeaders, false);
         JavaRDD<String> intputFlightsRdd = context.textFile(flightsPath).mapPartitionsWithIndex(removeHeaders, false);
 
-        JavaPairRDD<Integer, String> airportNames = intputAirportRdd
+        JavaPairRDD<Integer, String> airportNames = intputAirportRdd.mapToPair(line -> )
     }
 
 }
