@@ -70,7 +70,7 @@ public class MainClass {
                                                         0,
                                                         true));
            }else{
-               return new Tuple2<>()
+               return new Tuple2<>(new Tuple2<>())
            }
         });
     }
