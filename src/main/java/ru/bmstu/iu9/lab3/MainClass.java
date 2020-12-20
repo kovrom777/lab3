@@ -16,6 +16,7 @@ public class MainClass {
     public static final String COMMA_SPLIT = ",";
     public static final String QUOTATION_MARK_CONSTANT = "\"";
     public static final int TABLE_DELAY_ID = 18;
+    public static final String EMPTY_STRING = "";
 
     public static void main(String[] args) {
 
@@ -51,7 +52,7 @@ public class MainClass {
            for (int i = 1; i< airportArray.length; i++) {
                airport += airportArray[i];
            }
-               String preParsedId = airportArray[0].replace(QUOTATION_MARK_CONSTANT, "");
+               String preParsedId = airportArray[0].replace(QUOTATION_MARK_CONSTANT, EMPTY_STRING);
                int flightId = Integer.parseInt(preParsedId);
                return new Tuple2<>(flightId, airport);
         });
@@ -60,9 +61,10 @@ public class MainClass {
 
         JavaPairRDD<Tuple2<Integer, Integer>, AirportDataSerializable> resultRdd = intputFlightsRdd.mapToPair(line ->{
            String[] items = line.split(COMMA_SPLIT);
-           if (items[TABLE_DELAY_ID]
-           )
-        });
+           if (items[TABLE_DELAY_ID].equals(EMPTY_STRING)){
+               
+           }
+        })
     }
 
 }
