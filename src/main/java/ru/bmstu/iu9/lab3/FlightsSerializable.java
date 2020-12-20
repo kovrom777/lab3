@@ -69,7 +69,8 @@ public class FlightsSerializable {
         if (flightDelaysNumber == 0){
             return 0;
         }
-        double proportion = (double)flightDelaysNumber
+        double proportion = (double)flightDelaysNumber / (double) allFlightsNumber;
+        return proportion;
     }
 
 }
