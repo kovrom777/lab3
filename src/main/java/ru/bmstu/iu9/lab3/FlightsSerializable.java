@@ -45,6 +45,8 @@ public class FlightsSerializable {
         allFlightsNumber++;
     }
 
-    public static FlightsSerializable addValue()
+    public static FlightsSerializable addValue(FlightsSerializable a, FlightsSerializable b){
+        
+    }
 
 }
