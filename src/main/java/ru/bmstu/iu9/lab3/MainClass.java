@@ -4,6 +4,8 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function2;
 
+import java.util.Iterator;
+
 public class MainClass {
 
 
@@ -21,7 +23,7 @@ public class MainClass {
         SparkConf conf = new SparkConf().setAppName("example");
         JavaSparkContext context = new JavaSparkContext(conf);
 
-        Function2 removeHeaders = new Function2<Integer, Iterator<String>, > {
+        Function2 removeHeaders = new Function2<Integer, Iterator<String>, Iterator<String>> {
             @Override
             public Object call(Object o, Object o2) throws Exception {
                 return null;
