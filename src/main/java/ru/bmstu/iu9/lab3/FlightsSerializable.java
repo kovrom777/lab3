@@ -38,7 +38,9 @@ public class FlightsSerializable {
 
     public void incrementDelayCount(){
         flightDelaysNumber++;
-        
+        allFlightsNumber++;
     }
+
+    public void 
 
 }
