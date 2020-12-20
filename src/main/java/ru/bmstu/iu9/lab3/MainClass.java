@@ -17,6 +17,7 @@ public class MainClass {
     public static final String QUOTATION_MARK_CONSTANT = "\"";
     public static final int TABLE_DELAY_ID = 18;
     public static final String EMPTY_STRING = "";
+    public static final int TABLE_DESTINATION_ID = 14;
 
     public static void main(String[] args) {
 
@@ -63,7 +64,7 @@ public class MainClass {
            String[] items = line.split(COMMA_SPLIT);
            if (items[TABLE_DELAY_ID].equals(EMPTY_STRING)){
                return new Tuple2<>(new Tuple2<>(Integer.parseInt(items[TABLE_DELAY_ID]),
-                                                Integer.parseInt(items[])))
+                                                Integer.parseInt(items[TABLE_DESTINATION_ID])))
            }
         });
     }
