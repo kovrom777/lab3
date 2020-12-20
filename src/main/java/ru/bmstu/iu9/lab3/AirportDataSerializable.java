@@ -1,6 +1,10 @@
 package ru.bmstu.iu9.lab3;
 
-public class AirportDataSerializable {
+import java.io.Serializable;
+
+public class AirportDataSerializable implements Serializable {
+
 
     
+
 }
