@@ -82,7 +82,7 @@ public class MainClass {
         });
 
 
-        JavaPairRDD<Tuple2<Integer, Integer>, >
+        JavaPairRDD<Tuple2<Integer, Integer>, FlightsSerializable>
 
     }
 
