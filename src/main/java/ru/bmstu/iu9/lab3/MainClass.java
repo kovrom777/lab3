@@ -33,10 +33,10 @@ public class MainClass {
                 }else {
                     return iterator;
                 }
-
-                return null;
             }
-        }
+        };
+
+        
     }
 
 }
