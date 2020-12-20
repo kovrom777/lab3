@@ -88,7 +88,7 @@ public class MainClass {
                 delayNumber ++;
             }
             return new FlightsSerializable(p.getTimeDaley(), delayNumber + 1);
-        }, );
+        }, FlightsSerializable::Add);
 
     }
 
