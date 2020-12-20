@@ -40,7 +40,7 @@ public class MainClass {
         JavaRDD<String> intputAirportRdd = context.textFile(airportPath).mapPartitionsWithIndex(removeHeaders, false);
         JavaRDD<String> intputFlightsRdd = context.textFile(flightsPath).mapPartitionsWithIndex(removeHeaders, false);
 
-
+        
     }
 
 }
