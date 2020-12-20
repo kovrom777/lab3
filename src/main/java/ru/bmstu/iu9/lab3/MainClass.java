@@ -93,7 +93,9 @@ public class MainClass {
 
         final Broadcast<Map<Integer, String>> airportBroadcast = context.broadcast(airName);
 
-        JavaRDD<String> output = reducesRes.map()
+        JavaRDD<String> output = reducesRes.map(item -> {
+            
+        });
 
     }
 
