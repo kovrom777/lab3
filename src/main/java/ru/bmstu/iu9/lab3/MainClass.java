@@ -44,7 +44,7 @@ public class MainClass {
         JavaPairRDD<Integer, String> airportNames = intputAirportRdd.mapToPair(line -> {
            String[] airportName = line.split("COMMA_SPLIT");
            String airport = "";
-           
+           for (int i = 0)
         });
     }
 
