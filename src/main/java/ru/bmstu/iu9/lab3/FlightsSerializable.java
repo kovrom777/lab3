@@ -59,7 +59,7 @@ public class FlightsSerializable {
 
     public static FlightsSerializable add(FlightsSerializable a, FlightsSerializable b){
         return  new FlightsSerializable(
-                
+                Math.max()
 
         );
     }
